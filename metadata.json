@@ -1,0 +1,7 @@
+{
+  "name": "Sheba MFS | Bangladesh's Smart Mobile Financial Service",
+  "description": "Official web portal for Sheba MFS - Bangladesh's fast, secure mobile financial service for Send Money, Cash Out, Mobile Recharge, Bill Pay, Bangla QR, and Remittance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
