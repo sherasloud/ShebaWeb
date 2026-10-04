@@ -2,6 +2,7 @@ import React from 'react';
 import { Language } from '../types/sheba';
 import { TRANSLATIONS } from '../data/translations';
 import { ArrowUpRight, ShieldCheck, PhoneCall, QrCode } from 'lucide-react';
+import { ShebaHeroVisual } from './ShebaVisuals';
 
 interface HeroProps {
   lang: Language;
@@ -108,26 +109,9 @@ export const Hero: React.FC<HeroProps> = ({
             </div>
           </div>
 
-          {/* Right Column: Hero High Fidelity Image */}
+          {/* Right Column: Pure Sheba Hero Visual */}
           <div className="lg:col-span-5">
-            <div className="relative rounded-2xl overflow-hidden shadow-xl border border-neutral-200/80 bg-neutral-100 group">
-              <img
-                src="/src/assets/images/hero_sheba_mfs_1791132942895.jpg"
-                alt="Bangladeshi woman making mobile financial payment with Sheba MFS"
-                className="w-full aspect-[4/3] object-cover group-hover:scale-102 transition-transform duration-500"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-neutral-950/80 via-neutral-950/20 to-transparent flex flex-col justify-end p-6 text-white">
-                <div className="text-xs font-semibold text-emerald-300">
-                  {lang === 'bn' ? 'সরাসরি লেনদেন · তাৎক্ষণিক নোটিফিকেশন' : 'Direct Transaction · Instant SMS & In-app Alert'}
-                </div>
-                <div className="text-sm font-medium text-neutral-200 mt-1">
-                  {lang === 'bn'
-                    ? 'ঢাকার যেকোনো স্টোরে বা প্রত্যন্ত গ্রামে নির্বিঘ্ন সেবা পে'
-                    : 'Seamless Sheba Pay at city stores or remote villages across Bangladesh'}
-                </div>
-              </div>
-            </div>
+            <ShebaHeroVisual />
           </div>
         </div>
       </div>

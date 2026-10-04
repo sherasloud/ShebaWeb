@@ -2,6 +2,7 @@ import React from 'react';
 import { Language } from '../types/sheba';
 import { TRANSLATIONS } from '../data/translations';
 import { Send, ArrowDownToLine, Zap, Receipt, QrCode, PiggyBank, Globe, ArrowRight } from 'lucide-react';
+import { ShebaAgentPointVisual, ShebaMerchantQrVisual, ShebaRemittanceVisual } from './ShebaVisuals';
 
 interface ServicesBentoProps {
   lang: Language;
@@ -67,19 +68,9 @@ export const ServicesBento: React.FC<ServicesBentoProps> = ({
             </div>
           </div>
 
-          {/* Card 2: Cash Out with Agent Point image */}
+          {/* Card 2: Cash Out with Pure Sheba Agent Point Visual */}
           <div className="rounded-2xl border border-neutral-200 overflow-hidden flex flex-col justify-between hover:border-emerald-500/60 transition-colors bg-white">
-            <div className="relative aspect-[16/10] overflow-hidden bg-neutral-100">
-              <img
-                src="/src/assets/images/sheba_agent_point_1791132960331.jpg"
-                alt="Sheba MFS Agent Uddokta Point"
-                className="w-full h-full object-cover hover:scale-103 transition-transform duration-300"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute bottom-2 left-3 text-[11px] font-semibold text-white bg-neutral-900/70 px-2 py-0.5 rounded">
-                ১.৪৯% সর্বনিম্ন ক্যাশ আউট চার্জ
-              </div>
-            </div>
+            <ShebaAgentPointVisual />
             <div className="p-6">
               <div className="flex items-center gap-2 text-neutral-900 mb-2">
                 <ArrowDownToLine className="w-5 h-5 text-emerald-700" />
@@ -165,19 +156,9 @@ export const ServicesBento: React.FC<ServicesBentoProps> = ({
             </div>
           </div>
 
-          {/* Card 5: Bangla QR Merchant with Image */}
+          {/* Card 5: Bangla QR Merchant with Pure Sheba Visual */}
           <div className="rounded-2xl border border-neutral-200 overflow-hidden flex flex-col justify-between hover:border-emerald-500/60 transition-colors bg-white">
-            <div className="relative aspect-[16/10] overflow-hidden bg-neutral-100">
-              <img
-                src="/src/assets/images/sheba_merchant_qr_1791132985896.jpg"
-                alt="Sheba Bangla QR Merchant Payment"
-                className="w-full h-full object-cover hover:scale-103 transition-transform duration-300"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute bottom-2 left-3 text-[11px] font-semibold text-white bg-neutral-900/70 px-2 py-0.5 rounded">
-                বাংলাদেশ ব্যাংক ইন্টারঅপারেবল বাংলা কিউআর
-              </div>
-            </div>
+            <ShebaMerchantQrVisual />
             <div className="p-6">
               <div className="flex items-center gap-2 text-neutral-900 mb-2">
                 <QrCode className="w-5 h-5 text-emerald-700" />
@@ -200,19 +181,9 @@ export const ServicesBento: React.FC<ServicesBentoProps> = ({
             </div>
           </div>
 
-          {/* Card 6: Inward Remittance with Image */}
+          {/* Card 6: Inward Remittance with Pure Sheba Visual */}
           <div className="rounded-2xl border border-neutral-200 overflow-hidden flex flex-col justify-between hover:border-emerald-500/60 transition-colors bg-white">
-            <div className="relative aspect-[16/10] overflow-hidden bg-neutral-100">
-              <img
-                src="/src/assets/images/sheba_remittance_1791132973662.jpg"
-                alt="Sheba Remittance Probas Bondhu"
-                className="w-full h-full object-cover hover:scale-103 transition-transform duration-300"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute bottom-2 left-3 text-[11px] font-semibold text-white bg-emerald-950/80 px-2 py-0.5 rounded">
-                +২.৫% সরকারি প্রণোদনা তাৎক্ষণিক
-              </div>
-            </div>
+            <ShebaRemittanceVisual />
             <div className="p-6">
               <div className="flex items-center gap-2 text-neutral-900 mb-2">
                 <Globe className="w-5 h-5 text-emerald-700" />

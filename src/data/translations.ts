@@ -87,7 +87,7 @@ export const TRANSLATIONS = {
       youPay: 'আপনার খরচ হবে:',
       recipientGets: 'প্রাপক পাবেন:',
       totalCost: 'মোট কর্তন:',
-      savingNotice: 'অন্যান্য প্রচলিত এমএফএস এর চেয়ে প্রতি হাজারে ৩.৬০ টাকা পর্যন্ত সাশ্রয়!'
+      savingNotice: 'সেবায় প্রতি হাজারে মাত্র ১৪.৯০ টাকা ক্যাশ আউট চার্জ — দেশের সবচেয়ে সাশ্রয়ী রেট (shebabd.org)!'
     },
     locator: {
       title: 'নিকটস্থ সেবা উদ্যোক্তা পয়েন্ট খুঁজুন',
@@ -210,7 +210,7 @@ export const TRANSLATIONS = {
     },
     calc: {
       title: 'Transparent Fee Calculator',
-      subtitle: 'No hidden surcharges. See your real savings with Sheba MFS',
+      subtitle: 'No hidden surcharges. Experience direct affordability with Sheba MFS (shebabd.org)',
       amountLabel: 'Select transaction amount:',
       cashOutApp: 'Cash Out via App (1.49%)',
       cashOutUssd: 'Cash Out via USSD (1.85%)',
@@ -220,7 +220,7 @@ export const TRANSLATIONS = {
       youPay: 'You Pay / Deducted:',
       recipientGets: 'Recipient Gets:',
       totalCost: 'Total Fee:',
-      savingNotice: 'Save up to ৳3.60 per thousand compared to standard MFS providers!'
+      savingNotice: 'Enjoy Bangladesh’s lowest fee: only ৳14.90 per thousand with Sheba App (shebabd.org)!'
     },
     locator: {
       title: 'Find Nearest Sheba Uddokta & ATM',

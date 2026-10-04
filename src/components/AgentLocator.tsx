@@ -37,7 +37,7 @@ export const AgentLocator: React.FC<AgentLocatorProps> = ({ lang }) => {
             {t.locator.title}
           </h2>
           <p className="text-base text-neutral-600 mt-2">
-            {t.locator.subtitle}
+            {t.locator.subtitle} · <span className="font-mono-numbers text-emerald-700 font-semibold">shebabd.org</span>
           </p>
         </div>
 

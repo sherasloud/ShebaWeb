@@ -142,7 +142,15 @@ export const Footer: React.FC<FooterProps> = ({ lang, onScrollTo }) => {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-                <span>support@sheba.com.bd</span>
+                <a href="mailto:support@shebabd.org" className="hover:text-emerald-400 transition-colors">
+                  support@shebabd.org
+                </a>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-emerald-400 font-bold">WEB:</span>
+                <a href="https://shebabd.org" className="text-white font-bold hover:text-emerald-400 transition-colors font-mono-numbers">
+                  shebabd.org
+                </a>
               </div>
               <div className="flex items-start gap-2 pt-1">
                 <MapPin className="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5" />

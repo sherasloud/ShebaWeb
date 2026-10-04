@@ -216,8 +216,8 @@ export const FeeCalculator: React.FC<FeeCalculatorProps> = ({ lang }) => {
 
             <div className="pt-2 text-xs text-neutral-400 leading-relaxed">
               {lang === 'bn'
-                ? '* বাংলাদেশ ব্যাংকের সার্কুলার মোতাবেক সেবা এমএফএস চার্জ নির্ধারিত। সরকার নির্ধারিত ১৫% ভ্যাট অন্তর্ভুক্ত।'
-                : '* Fees adhere to Bangladesh Bank MFS tariff guidelines, inclusive of statutory 15% VAT.'}
+                ? '* বাংলাদেশ ব্যাংকের সার্কুলার মোতাবেক সেবা এমএফএস চার্জ নির্ধারিত। সরকার নির্ধারিত ১৫% ভ্যাট অন্তর্ভুক্ত। অফিসিয়াল পোর্টাল: shebabd.org'
+                : '* Fees adhere to Bangladesh Bank MFS tariff guidelines, inclusive of statutory 15% VAT. Official portal: shebabd.org'}
             </div>
           </div>
         </div>

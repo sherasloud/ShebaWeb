@@ -263,8 +263,8 @@ export const AppSimulator: React.FC<AppSimulatorProps> = ({ lang, initialAction 
                         <User className="w-5 h-5" />
                       </div>
                       <div>
-                        <div className="text-xs text-emerald-200">
-                          {lang === 'bn' ? 'স্বাগতম' : 'Welcome'}
+                        <div className="text-[10px] text-emerald-300 font-bold font-mono-numbers">
+                          shebabd.org
                         </div>
                         <div className="text-sm font-bold tracking-tight">
                           {lang === 'bn' ? 'তানভীর আহমেদ' : 'Tanvir Ahmed'}
@@ -976,7 +976,7 @@ export const AppSimulator: React.FC<AppSimulatorProps> = ({ lang, initialAction 
                       }}
                       className="px-4 py-2 bg-emerald-700 hover:bg-emerald-800 text-white font-bold rounded-lg text-xs cursor-pointer"
                     >
-                      {lang === 'bn' ? 'টেস্ট কিউআর পেমেন্ট (৳৩৫০)' : 'Simulate Scan & Pay (৳350)'}
+                      {lang === 'bn' ? 'টেস্ট কিউআর পেমেন্ট · shebabd.org (৳৩৫০)' : 'Scan & Pay · shebabd.org (৳350)'}
                     </button>
                   </div>
                 </div>

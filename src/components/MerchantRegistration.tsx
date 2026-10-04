@@ -193,8 +193,11 @@ export const MerchantRegistration: React.FC<MerchantRegistrationProps> = ({ lang
               <div className="text-xs uppercase tracking-widest text-emerald-200 font-bold mb-1">
                 {lang === 'bn' ? 'বাংলাদেশ ব্যাংক অনুমোদিত' : 'BANGLADESH BANK INTEROPERABLE'}
               </div>
-              <div className="text-2xl font-black tracking-tight text-white mb-4">
+              <div className="text-2xl font-black tracking-tight text-white mb-1">
                 {lang === 'bn' ? 'বাংলা কিউআর · সেবা' : 'BANGLA QR · SHEBA'}
+              </div>
+              <div className="text-[11px] font-mono-numbers text-emerald-300 font-bold mb-4">
+                shebabd.org
               </div>
 
               {/* QR Plate */}
@@ -258,8 +261,8 @@ export const MerchantRegistration: React.FC<MerchantRegistrationProps> = ({ lang
               {/* Bangla QR Footnote */}
               <div className="mt-4 text-xs text-emerald-200">
                 {lang === 'bn'
-                  ? 'যেকোনো ব্যাংক বা এমএফএস অ্যাপ দিয়ে স্ক্যান করে পেমেন্ট করুন'
-                  : 'Scan & pay with any bank or MFS app across Bangladesh'}
+                  ? 'সেবা অ্যাপ ও ইন্টারঅপারেবল বাংলা কিউআর দিয়ে পেমেন্ট গ্রহণ করুন · shebabd.org'
+                  : 'Accept payments seamlessly via Sheba App & Bangla QR · shebabd.org'}
               </div>
 
               {submitted && (

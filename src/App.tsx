@@ -138,7 +138,7 @@ export default function App() {
 
             <div className="mt-4 pt-3 border-t border-neutral-100 text-center">
               <span className="text-[11px] text-neutral-500 font-mono-numbers">
-                Version 3.4.1 (Build 2026) · Bangladesh Bank Certified
+                Version 3.4.1 (Build 2026) · Bangladesh Bank Certified · shebabd.org
               </span>
             </div>
           </div>

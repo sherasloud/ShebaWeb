@@ -23,14 +23,17 @@ export const Header: React.FC<HeaderProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 flex items-center justify-between">
         {/* Zone 1: Single text element wordmark */}
         <a
-          href="#"
+          href="https://shebabd.org"
           onClick={(e) => {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }}
-          className="text-2xl sm:text-3xl font-bold tracking-tight text-emerald-800 hover:text-emerald-700 transition-colors"
+          className="text-2xl sm:text-3xl font-bold tracking-tight text-emerald-800 hover:text-emerald-700 transition-colors flex items-center gap-2"
         >
-          {lang === 'bn' ? 'সেবা' : 'Sheba'}
+          <span>{lang === 'bn' ? 'সেবা' : 'Sheba'}</span>
+          <span className="text-xs font-semibold text-emerald-600 font-mono-numbers px-2 py-0.5 rounded bg-emerald-50 border border-emerald-200">
+            shebabd.org
+          </span>
         </a>
 
         {/* Zone 2: 4-6 text nav links */}

@@ -104,7 +104,7 @@ export const SecurityCompliance: React.FC<SecurityComplianceProps> = ({ lang }) 
             </p>
             <div className="pt-2 flex items-center gap-3 text-sm font-bold font-mono-numbers text-emerald-300">
               <Phone className="w-4 h-4" />
-              <span>USSD CODE: *266# (FREE DIAL)</span>
+              <span>USSD: *266# (FREE DIAL) · WEB: shebabd.org</span>
             </div>
           </div>
         </div>
